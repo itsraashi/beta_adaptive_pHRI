@@ -4,8 +4,11 @@ import json
 import copy
 
 import trajoptpy
+# generating robot trajectory
+# https://rll.berkeley.edu/trajopt/doc/sphinx_build/html/
 
 from utils.openrave_utils import *
+# OPENRave = Open Robotics Automation Virtual Environment
 from utils.trajectory import Trajectory
 
 class TrajoptPlanner(object):
